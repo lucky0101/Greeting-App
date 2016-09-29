@@ -1,0 +1,544 @@
+/*!
+ * Greetingapp E-Commerce v1.0 (http://www.rocksdesign.in)
+ * Copyright Rocks Design.
+ * Creator: Sidharth Gupta
+ */
+
+ /*font Classes
+ ----------------------------------------*/
+ 
+.amatic-sc{
+	 font-family: 'Amatic SC', cursive;
+ 	 font-weight: 400; /*Normal*/
+	 
+	 /* avilable font weight italic avilable
+	 font-weight: 700; bold
+	 */
+}
+.open-sans{
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 400; /*Normal*/
+	 
+	 /* avilable font weight italic avilable
+	 
+	 font-weight: 300; light
+	 font-weight: 600; semi-bold
+	 font-weight: 700; bold
+	 font-weight: 800; extra-bold
+	 */
+}
+ 
+.roboto{
+	 font-family: 'Roboto', sans-serif;
+	 font-weight: 400; /*Normal*/
+	 
+	 /* avilable font weight italic avilable 
+	 
+	 font-weight: 100; Extra light
+	 font-weight: 300; light
+	 font-weight: 500; medium
+	 font-weight: 700; bold
+	 font-weight: 900; ultra bold
+	 */
+}
+
+.roboto-bold{
+	 font-family: 'Roboto', sans-serif;
+	 font-weight: 700; /*bold*/
+	 
+}
+ 
+.caveat{
+	 font-family: 'Caveat', cursive;
+	 font-weight: 400; /*Normal*/
+	 
+	 /* avilable font weight italic not avilable 
+	 
+	 font-weight: 700; bold
+	 */
+}
+ 
+ /*Body and Genral Style
+ ---------------------------------------------*/
+
+
+.wrapper{
+	 max-width:1020px;
+	 background:#fff;
+	 margin-left:auto;
+	 margin-right:auto;
+	 margin-top:0;
+	 margin-bottom:0;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+.margin-0{
+	margin:0;
+}
+
+.color-gray{
+	color:#777;
+}
+
+.margin-top-20{
+	margin-top:20px;
+}
+
+.margin-top-25{
+	margin-top:25px;
+}
+
+.margin-top-30{
+	margin-top:30px;
+}
+
+.margin-left-5{
+	margin-left:5px;
+}
+
+.margin-bottom-15{
+	margin-bottom:15px;
+}
+
+.margin-bottom-20{
+	margin-bottom:20px;
+}
+
+.margin-bottom-25{
+	margin-bottom:25px;
+}
+
+.font-size-12{
+	font-size:12px;
+}
+.font-size-13{
+	font-size:13px;
+}
+
+
+.font-size-16{
+	font-size:16px;
+}
+
+.font-size-18{
+	font-size:18px;
+}
+
+.font-size-20{
+	font-size:20px;
+}
+
+.font-size-50{
+	font-size:50px;
+}
+
+.font-size-60{
+	font-size:60px;
+}
+
+
+.content-left{
+	text-align:left;
+}
+
+@media (max-width: 768px) {
+.content-left{
+	text-align:center;
+}	
+}
+
+.content-right{
+	text-align:right;
+}
+
+@media (max-width: 768px) {
+.content-right{
+	text-align:center;
+}	
+}
+
+.padding-5{
+	padding:5px;
+}
+
+.display-block{
+	display:block;
+}
+
+.btn-proceed{
+	
+	background:#FF6700;
+	color:#ffffff;
+}
+
+.btn-proceed:hover{
+	
+	color:#ffffff;
+	background: #FF9933;
+	
+}
+
+.btn-proceed:focus{
+	
+	color:#ffffff;
+	
+}
+
+/*Bootstrap edit calsses
+---------------------------------------------*/
+
+/*Page Header
+---------------------------------------*/
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 0px 0 0px;
+    border-bottom:none;
+}
+
+
+
+/*Index Page Style
+---------------------------------------*/
+.front-heading{
+	font-family: 'Open sans', sans-serif;
+	font-weight: 300;
+	text-transform:uppercase;
+	color: rgb(119, 119, 119);
+	font-size:40px;
+	margin-top:30px;
+}
+
+/*Register, Login Page Style
+---------------------------------------*/
+
+/*form style*/
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 10px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #000;
+  background-color: #fff;
+  background-image: none;
+  border-bottom:1px solid #F0D8A8;
+  border-left:none;
+  border-right:none;
+  border-top:none;
+    border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		  -webkit-transition: background 0.5s; /* Safari */
+			transition: background 0.5s;
+  
+  font-family:'Open Sans',sans-serif;
+  font-weight:400;
+		  		  
+}
+
+.form-control:focus {
+  border-color: #FFCC00;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+		  background:#f9f9f9;
+		  -webkit-transition: background 0.5s; /* Safari */
+		  transition: background 0.5s;
+}
+
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555;
+  text-align: center;
+  background-color: #F0D8A8;
+  border-bottom:1px solid #F0D8A8;
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  border-radius: 0px;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family:"Roboto", sans-serif;
+  font-size:16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 20px;
+  margin-top:20px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-family:"Open sans", sans-serif;
+  font-weight: 400;
+}
+
+.btn:focus{
+	outline:none;
+}
+
+.form-control::-webkit-input-placeholder { 
+	font-family:'Open sans', sans-serif;
+	font-weight:400;
+}
+
+.form-control:-moz-placeholder { 
+	font-family:'Open sans', sans-serif; 
+	font-weight:400;
+}
+
+.form-control::-moz-placeholder { 
+	font-family:'Open sans', sans-serif;
+	font-weight:400;
+}
+
+.form-control:-ms-input-placeholder { 
+	font-family:'Open sans', sans-serif;
+	font-weight:400; 
+}
+
+.form-control::placeholder { 
+	font-family:'Open sans', sans-serif;
+	font-weight:400;
+}
+.form-control:placeholder { 
+	font-family:'Open sans', sans-serif;
+	font-weight:400; 
+}
+
+
+.error-display{
+	margin-bottom:20px;
+	width:100%;
+	
+}
+
+.error-display .red-mark{
+	border-left:3px solid red;
+	padding:10px;
+	font-family:'Open sans', sans-serif;
+	font-weight:400;
+	background:rgba(254,109,62, 0.1);
+	width:100%;
+	padding-left:15px;
+	color:#000;
+}
+
+.error-display .orange-mark{
+	border-left:3px solid orange;
+	padding:10px;
+	font-family:'Open sans', sans-serif;
+	font-weight:400;
+	background:rgba(237,167,19, 0.1);
+	width:100%;
+	padding-left:15px;
+	color:#000;
+}
+
+.error-display .green-mark{
+	border-left:3px solid green;
+	padding:10px;
+	font-family:'Open sans', sans-serif;
+	font-weight:400;
+	background:rgba(68,159,68, 0.1);
+	width:100%;
+	padding-left:15px;
+	color:#000;
+}
+
+
+/*User Dashboard Style
+---------------------------------------*/
+
+.listbox{
+	background:	#2B9EB3;
+	padding:20px;
+	color:#fff;
+	margin:10px;
+	margin-top:20px;
+}
+
+.listbox h3{
+	margin:0;
+	font-family: 'Open sans', sans-serif;
+	font-weight:400;
+	text-transform:uppercase;
+}
+
+.listbox p{
+	margin-top:10px;
+	font-size:50px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	text-transform:capitalize;
+}
+
+.listbox a{
+	color:#000;
+	background:#fff;
+	padding:10px;
+	border:none;
+	text-decoration:none;
+	outline:none;
+	border-radius:3px;
+	Font-family:'Roboto',sans-serif;
+	font-weight:300;
+	Font-size:14px;
+	text-transform:uppercase;
+}
+
+/*Pagination style
+-------------------------------------------*/
+
+#pagination{
+margin-left:58px; 
+margin-right:58px;
+padding:6px;
+background-color:#FFFFFF;
+margin-top:10px;
+text-transform:uppercase;
+
+}
+
+#pagination a:link{
+	font-family:'Open Sans',Verdana, Arial, Helvetica, sans-serif;
+}
+
+#pagination p{
+	font-family:'Open Sans',Verdana, Arial, Helvetica, sans-serif;
+}
+
+.pagelink{
+color: #000;
+	font-family:'Open Sans',Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	background-color: #FDCB06;
+	padding:2px; 
+	padding-left:7px;
+	padding-right:7px; 
+	border-radius:3px;
+	text-decoration:none;
+	outline:none;
+	border:none;
+	-webkit-transition: background-color 0.3s linear 0s; 
+	-moz-transition: background-color 0.3s linear 0s; 
+	-ms-transition: background-color 0.3s linear 0s; 
+	-o-transition: background-color 0.3s linear 0s; 
+	transition: background-color 0.3s linear 0s;}
+
+.pagelink:hover{
+color: #000;
+text-decoration:none;
+	outline:none;
+	border:none;
+	background-color: #55C79C;}
+
+.pagNumActive {
+	color: #000;
+	font-family:'Open Sans',Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	background-color: #FDCB06;
+	padding:2px; 
+	padding-left:7px;
+	padding-right:7px; 
+	border-radius:3px;
+	
+
+	
+}
+.paginationNumbers a:link {
+	color: #fff;
+	text-decoration: none;
+	background-color:#1a1a1a;
+	font-family:'Open Sans',Verdana, Arial, Helvetica, sans-serif;
+	padding:2px; 
+	padding-left:7px;
+	padding-right:7px; 
+	border-radius:3px;
+	-webkit-transition: background-color 0.3s linear 0s; 
+	-moz-transition: background-color 0.3s linear 0s; 
+	-ms-transition: background-color 0.3s linear 0s; 
+	-o-transition: background-color 0.3s linear 0s; 
+	transition: background-color 0.3s linear 0s;
+}
+.paginationNumbers a:visited {
+	color: #fff;
+	text-decoration: none;
+	background-color:#1a1a1a; 
+	padding:2px; 
+	padding-left:7px;
+	padding-right:7px; 
+	border-radius:3px;
+	
+}
+.paginationNumbers a:hover {
+	color: #000;
+	text-decoration: none;
+	background-color: #55C79C;
+	padding:2px; 
+	padding-left:7px;
+	padding-right:7px; 
+	border-radius:3px; 
+	
+}
+.paginationNumbers a:active {
+	color: #fff;
+	text-decoration: none;
+    background-color:#1a1a1a;
+	padding:2px; 
+	padding-left:7px;
+	padding-right:7px; 
+	border-radius:3px; 
+}
+
+
+
+
+/*___________________________________________________*/
+
+
+/*manage greeting list style
+---------------------------------------*/
+
+.geeting-box{
+	
+	margin-top:20px;
+	
+}
+
+.geeting-box .name{
+	
+	margin-top:10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400; /*Normal*/
+	font-size:14px;
+}
+/*---------------------------------------*/

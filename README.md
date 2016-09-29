@@ -2,7 +2,7 @@
 <p>HTML, CSS , PHP based application for convert images to greeting.</p>
 
 <p><b>MySQL Extension: PHP MYSQLI Procedural.</b><br />
-<b>Password Encryption: #MD5</b></p>
+<b>Password Hash: #MD5</b></p>
 <ul>
 <li>Please find <b>“connect_to_mysql.php”</b> in scripts folder and it’s necessary for database connection</li>
 <li>Add your required database information in <b>“connect_to_mysql.php”</b>.</li>

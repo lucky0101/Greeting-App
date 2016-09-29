@@ -8,7 +8,9 @@ I share this application as real work example when you going to use it update th
 update password hash to Bcryp as it latest on (29-9-2016) in the future follow the standard, also update the php interface as you want or feel secure.
 <br /><br />
 
-purpose of it just show the basic mechanism and UI/UX of basic php real work application.
+<b> purpose of it just show the basic mechanism and UI/UX of basic php real work application.</b>
+
+<br /><br />
 
 </p>
 

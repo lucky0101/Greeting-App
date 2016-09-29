@@ -1,6 +1,17 @@
 # Greeting-App
 <p>HTML, CSS , PHP based application for convert images to greeting.</p>
 
+<p>
+I share this application as real work example when you going to use it update this code as latest standard, in my job request i did all thing as the client ask , it was specific project more than a year ago, client security is not breach here i remove the all personal info from it.
+
+<br /><br />
+update password hash to Bcryp as it latest on (29-9-2016) in the future follow the standard, also update the php interface as you want or feel secure.
+<br /><br />
+
+purpose of it just show the basic mechanism and UI/UX of basic php real work application.
+
+</p>
+
 <p><b>MySQL Extension: PHP MYSQLI Procedural.</b><br />
 <b>Password Hash: #MD5</b></p>
 <ul>

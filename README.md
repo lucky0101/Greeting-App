@@ -1,8 +1,8 @@
 # Greeting-App
-HTML, CSS , PHP based application for convert images to greeting.
+<p>HTML, CSS , PHP based application for convert images to greeting.</p>
 
-SQL Extension: PHP MYSQLI Procedural.
-Password Encryption: #MD5
+<p><b>MySQL Extension: PHP MYSQLI Procedural.</b><br />
+<b>Password Encryption: #MD5</b></p>
 <ul>
 <li>Please find “connect_to_mysql.php” in scripts folder and it’s necessary for database connection</li>
 <li>Add your required database information in “connect_to_mysql.php”.</li>
@@ -14,3 +14,8 @@ Password Encryption: #MD5
 <li>If you have any other error in using it, please tell us we will solve it</li>
 </ul>
 
+<br /><br />
+
+<p>Thanks & Regards</p>
+<p>Sidhharth Gupta</p>
+<a href="www.rocksdesign.in">Rocks Design </a>

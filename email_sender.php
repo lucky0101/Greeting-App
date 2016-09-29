@@ -176,8 +176,8 @@ if(isset($_POST['final_email_list'])){
 					$mail->Port       = 465;                    // set the SMTP port for the GMAIL server
 					//$mail->SMTPSecure = 'ssl';               // use this if you want secure app
 					
-					$mail->Username   = "greetapp10@gmail.com"; // SMTP account username
-					$mail->Password   = "greetapp123";        // SMTP account password
+					$mail->Username   = "addyouremail@gmail.com"; // SMTP account username
+					$mail->Password   = "addyourpassword";        // SMTP account password
 					
 					//$mail->Timeout = 3600;  
 					

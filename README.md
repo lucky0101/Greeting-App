@@ -18,4 +18,4 @@
 
 <p>Thanks & Regards</p>
 <p>Sidhharth Gupta</p>
-<a href="www.rocksdesign.in">Rocks Design </a>
+<a href="http://www.rocksdesign.in" target="_blank">Rocks Design </a>
